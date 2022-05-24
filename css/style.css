@@ -14,7 +14,6 @@ a {
 
 /* Header */
 header {
-    background-color: lightcoral;
     font-family: Helvetica, arial, sans-serif;
 }
 
@@ -35,27 +34,37 @@ header {
 .headertop img {
     width: 100px
 }
+
 /* Header Bottom Section */
 .navcontent {
     padding-left: 1rem;
-    height: 100px;
+    height: 60px;
 }
 
 .chevron {
-    width: 20px;
+    width: 16px;
     height: 15px;
 }
 
 .headerbottom li {
-    padding-right: 0.5rem;
+    padding-right: 0.4rem;
 }
 
 .navcontent .row,.hbleftside, .hbrightside {
     height: 100%;
 }
-
+.dnpbtn {
+    padding:10px 12px;
+    background-color: #363636;
+    color: white;
+    border-radius: 24px 24px 24px 24px
+}
 .lens {
     width: 50px;
     height: 20px;
+}
+
+.hbmenu i{
+    vertical-align: super;
 }
 /* Fine Header */
