@@ -1,0 +1,19 @@
+header {
+    height: 200px;
+    background-color: lightcoral;
+}
+
+.headertop {
+    background-color: black;
+    height: 18%;
+}
+.htlogo {
+    text-align: right;
+    width: 100%;
+    vertical-align: sub;
+    display: inline-block;
+}
+
+.headertop img {
+    width: 100px
+}
