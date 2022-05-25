@@ -11,12 +11,18 @@ a {
 .container-fluid, .container, .row {
     height: 100%;
 }
-
+body {
+    font-family: Arial, sans-serif;
+}
 /* Header */
 header {
     font-family: Helvetica, arial, sans-serif;
 }
 
+
+img {
+    max-width: 100%;
+}
 /* Header Top Section */
 .headertop {
     background-color: black;
@@ -117,21 +123,39 @@ header {
 .mscard {
     width: 250px;
     height: 150px;
-    border-radius: 10%;
 }
+
+
 .mscard img {
-    max-width: 100%;
     height: 100%;
-    border-radius: 12%;
+    border-radius: 12px;
 }
 .PS5 {
     margin-top: 5rem;
 }
 
 
+.nolimits {
+    margin-top: 5rem;
+}
 
+.playlimits {
+    text-align: center;
+}
 
+.playlimits h5 {
+    color: #0c78d0;
 
+}
+
+.bggrey {
+    background-color: #2d64e6;
+}
+
+/* Section No limits - Accessori */
+ /* .mscard img {
+    width:100% 
+} */
 /* Custom media */
 
 /* @media only screen and (min-width: 576px) {
@@ -152,8 +176,31 @@ header {
     }
 
     .mscard {
-        width: 150px;
+        width: 140px;
         height: 100px;
+        text-align: center;
     }
-}
+
+    .centratolg {
+        display: flex;
+        align-items: center;
+    }
     
+}
+  
+@media only screen and (min-width: 1200px) {
+    .mscard {
+        width: 170px;
+        height: 120px;
+    }
+    
+}
+
+@media only screen and (min-width: 1400px) {
+    .mscard {
+        width: 200px;
+        height: 120px;  
+    }
+    
+
+}
