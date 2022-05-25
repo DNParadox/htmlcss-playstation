@@ -8,7 +8,7 @@ a {
     color: inherit;
 }
 
-.container-fluid {
+.container-fluid, .container, .row {
     height: 100%;
 }
 
@@ -68,3 +68,92 @@ header {
     vertical-align: super;
 }
 /* Fine Header */
+
+/* Main */
+/*Section Returnal */
+.returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    /* debug */
+    color: white;
+    height: 700px;
+    width: 100%;
+    background-position-x: 50%;
+}
+
+.bgimg {
+    display: flex;
+    align-items: end;
+    height: 50%;
+}
+
+.returnal img {
+    width: 60%; 
+}
+
+.text {
+    height: 50%;
+    padding-bottom: 2rem;
+ } 
+ 
+.bgtxt {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.returnal h2 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.bgred {
+   background-color: #cd3d0f;
+}
+
+/* Sezione PS5 */
+/* Card Section */
+
+.mscard {
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+}
+.mscard img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 12%;
+}
+.PS5 {
+    margin-top: 5rem;
+}
+
+
+
+
+
+/* Custom media */
+
+/* @media only screen and (min-width: 576px) {
+  
+} */
+
+@media only screen and (min-width: 768px) {
+    .mscard {
+        width: 240px;
+        height: 120px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .bgtxt {
+        width: 40%;
+    }
+
+    .mscard {
+        width: 150px;
+        height: 100px;
+    }
+}
+    
