@@ -19,7 +19,6 @@ header {
     font-family: Helvetica, arial, sans-serif;
 }
 
-
 img {
     max-width: 100%;
 }
@@ -138,12 +137,6 @@ h2 {
 /* Sezione PS5 */
 /* Card Section */
 
-/* .mscard {
-    width: 250px;
-    height: 150px;
-} */
-
-
 .mscard img {
     height: 100%;
     border-radius: 12px;
@@ -203,9 +196,27 @@ h2 {
 
 /* Section - Old Gen */
 .oldgen {
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 
+/* Section - Psplus */
+.psplus {
+    background-color: #bebcbb;
+}
+
+.bgplus {
+    background-color: #d9dadc;
+    color: #4272e4;
+}
+
+.pspluslogo {
+    padding-top: 1rem;
+}
+
+/* Section - Sconti */
+.sconti {
+    margin-top: 2rem;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -218,6 +229,10 @@ h2 {
         height: 270px;
         padding-bottom: 3rem;
         width: 96%;
+    }
+
+    .psmonth img {
+        height: 300px;
     }
 }
 
@@ -246,6 +261,10 @@ h2 {
     .lgwidth {
         margin: 0 auto;
         width: 60%;
+    }
+
+    .psmonth img {
+        height: 100%;
     }
 }
   
