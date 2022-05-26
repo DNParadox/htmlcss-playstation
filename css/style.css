@@ -215,9 +215,23 @@ h2 {
 
 /* Section - Sconti */
 .sconti {
-    margin-top: 2rem;
+    margin-top: 3rem ;
 }
 
+/* Section - PSnow */
+.psnow {
+    background-color: #161c3b;
+    color: white;
+    margin-top: 1rem;
+}
+
+/* Section - Social */
+
+.social {
+    margin: 3rem 0;
+}
+
+/* FINE MAIN */
 
 @media only screen and (min-width: 768px) {
     .mscard {
