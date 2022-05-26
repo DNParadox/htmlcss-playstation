@@ -120,10 +120,10 @@ img {
 /* Sezione PS5 */
 /* Card Section */
 
-.mscard {
+/* .mscard {
     width: 250px;
     height: 150px;
-}
+} */
 
 
 .mscard img {
@@ -132,6 +132,7 @@ img {
 }
 .PS5 {
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -152,19 +153,34 @@ img {
     background-color: #2d64e6;
 }
 
-/* Section No limits - Accessori */
- /* .mscard img {
-    width:100% 
-} */
-/* Custom media */
+/* Section - It Takes two */
 
-/* @media only screen and (min-width: 576px) {
-  
-} */
+.ittakestwo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    color: white;
+}
+.subtext {
+    text-align: left;
+}
+.ittakestwo img{
+    max-width: 70%;
+}
+
+/* Section - Nuove uscite */
+.nuove.uscite {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    background-color: #1f1f1f;
+    color: white;
+}
 
 @media only screen and (min-width: 768px) {
     .mscard {
-        width: 240px;
+        width: 120px;
         height: 120px;
     }
 
@@ -174,6 +190,8 @@ img {
     .bgtxt {
         width: 40%;
     }
+
+
 
     .mscard {
         width: 140px;
