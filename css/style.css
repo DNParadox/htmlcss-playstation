@@ -233,6 +233,39 @@ h2 {
 
 /* FINE MAIN */
 
+/* Footer */
+footer {
+    background-color: #00439c;
+    padding-top: 2rem;
+    color: white;
+}
+
+.word {
+
+    padding-top: 0.5rem;
+}
+.word img {
+    width: 5%;
+    margin-right: 0.8rem;
+}
+
+ footer ul {
+    margin-bottom:0;
+    padding-left: 2.7rem;
+}
+
+.sieimg {
+    width:30%;
+}
+
+.siea {
+    text-decoration: underline;
+    
+}
+
+.sielogo {
+    padding-bottom: 3rem;
+}
 @media only screen and (min-width: 768px) {
     .mscard {
         width: 120px;
@@ -248,6 +281,12 @@ h2 {
     .psmonth img {
         height: 300px;
     }
+
+    footer ul {
+    margin-bottom: 0;
+    padding-left: 3.3rem;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
