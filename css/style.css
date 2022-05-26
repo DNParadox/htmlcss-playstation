@@ -23,6 +23,23 @@ header {
 img {
     max-width: 100%;
 }
+
+.bgp {
+    padding-bottom: 2rem;
+}
+
+.pstext {
+    padding-top:1rem;
+    color: #838383;
+    font-size: 1.5rem;
+    padding-bottom:3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
 /* Header Top Section */
 .headertop {
     background-color: black;
@@ -63,7 +80,8 @@ img {
     padding:10px 12px;
     background-color: #363636;
     color: white;
-    border-radius: 24px 24px 24px 24px
+    border-radius: 24px 24px 24px 24px;
+    margin-top: 1rem;
 }
 .lens {
     width: 50px;
@@ -172,26 +190,34 @@ img {
 
 /* Section - Nuove uscite */
 .nuove.uscite {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    padding: 4rem 0;
     background-color: #1f1f1f;
     color: white;
 }
 
+
+.nuove.uscite .fixcard {
+    height: 300px;
+    padding-bottom: 3rem;
+    width: 90%;
+}
 @media only screen and (min-width: 768px) {
     .mscard {
         width: 120px;
         height: 120px;
     }
 
+    .nuove.uscite .fixcard {
+        height: 270px;
+        padding-bottom: 3rem;
+        width: 96%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
     .bgtxt {
         width: 40%;
     }
-
-
 
     .mscard {
         width: 140px;
@@ -203,15 +229,19 @@ img {
         display: flex;
         align-items: center;
     }
-    
+
+    .nuove.uscite .fixcard {
+        height: 240px;
+        padding-bottom: 3rem;
+        width: 100%;
+    }
 }
   
 @media only screen and (min-width: 1200px) {
     .mscard {
         width: 170px;
         height: 120px;
-    }
-    
+    }    
 }
 
 @media only screen and (min-width: 1400px) {
@@ -219,6 +249,4 @@ img {
         width: 200px;
         height: 120px;  
     }
-    
-
 }
