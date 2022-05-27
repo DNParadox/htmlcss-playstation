@@ -82,6 +82,11 @@ h2 {
     border-radius: 24px 24px 24px 24px;
     margin-top: 1rem;
 }
+
+header .dnpbtn {
+    margin-top: 0;
+}
+
 .lens {
     width: 50px;
     height: 20px;
@@ -225,6 +230,10 @@ h2 {
     margin-top: 1rem;
 }
 
+.psnow .dnpbtn {
+    color: black;
+}
+
 /* Section - Social */
 
 .social {
@@ -265,6 +274,7 @@ footer {
 
 .sielogo {
     padding-bottom: 3rem;
+    padding-top: 1rem;
 }
 @media only screen and (min-width: 768px) {
     .mscard {
